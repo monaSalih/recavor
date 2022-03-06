@@ -1,5 +1,41 @@
-header.sticky{
-position: -webkit-sticky;
-position: sticky;
-border: 2px solid red;
+*{
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid red;
+}
+h1{
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+nav{
+    background-color: bisque;
+}
+ul{
+   position: relative; 
+}
+#most_left{
+    position: absolute;
+    right: 15px;
+    }
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+#left{
+    width: 75%;
+    height:70%;
+    float: left;
+}
+#right{
+    float: right;
+    width: 20%;
+    /* height: 70%; */
+}
+footer{
+    /* position: initial;
+     */
+    clear:both;
 }
