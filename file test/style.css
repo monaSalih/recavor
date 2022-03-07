@@ -30,7 +30,7 @@ a{
     float: left;
 }
 #right{
-    float: right;
+    /* float: right; */
     width: 20%;
     /* height: 70%; */
 }

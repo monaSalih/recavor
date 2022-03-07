@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <style>
+      .parent {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: 33% 33% 33% ;  
+        row-gap: 2%;
+        column-gap: 1px;   
+     }
+
+      .parent div {
+        background-color: red;
+        border: 1px solid black;
+        padding: 16%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+    </div>
+  </body>
+</html>
